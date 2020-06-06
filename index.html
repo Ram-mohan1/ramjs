@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/c448.0.1152.1152a/s851x315/101943144_254854022408067_4602033646365310976_o.jpg?_nc_cat=106&_nc_sid=da31f3&_nc_ohc=wXTNooyzCdAAX_zHKSQ&_nc_ht=scontent.fhyd6-1.fna&oh=c3ae12cf82a4d83227f669c121497a5b&oe=5F012B12);
+        }
+        /* Full-width input fields */
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        /* Set a style for all buttons */
+        
+        button {
+            background-color: rgb(235, 214, 26);
+            color: black;
+            opacity: 0.7;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .absolute {
+            position: absolute;
+            width: 25%;
+            bottom: 10px;
+            border: 3px solid #8AC007;
+        }
+        
+        button:hover {
+            opacity: 1;
+            border-radius: 20px;
+        }
+        /* Extra styles for the cancel button */
+        
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+        /* Center the image and position the close button */
+        
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+        
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+        
+        .container {
+            padding: 16px;
+        }
+        
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        /* The Modal (background) */
+        
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+            padding-top: 60px;
+        }
+        /* Modal Content/Box */
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto;
+            /* 5% from the top, 15% from the bottom and centered */
+            border: 1px solid #888;
+            width: 80%;
+            /* Could be more or less, depending on screen size */
+        }
+        /* The Close Button (x) */
+        
+        .close {
+            position: absolute;
+            right: 25px;
+            top: 0;
+            color: #000;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: red;
+            cursor: pointer;
+        }
+        /* Add Zoom Animation */
+        
+        .animate {
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s
+        }
+        
+        @-webkit-keyframes animatezoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+        
+        @keyframes animatezoom {
+            from {
+                transform: scale(0)
+            }
+            to {
+                transform: scale(1)
+            }
+        }
+        /* Change styles for span and cancel button on extra small screens */
+        
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <h1 style="color: rgb(9, 243, 17);">Wanna See My work???</h1>
+    </center>
+    <center>
+        <h4 style="color: rgb(9, 243, 17);">Click Here to login...</h4>
+    </center>
+    <center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></center>
+    <center><img src="https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/101852541_255260805700722_969342423028090167_n.jpg?_nc_cat=109&_nc_sid=730e14&_nc_ohc=FnuHbEM2yGsAX_yw4qH&_nc_ht=scontent.fhyd6-1.fna&oh=2513da74c3b31cd57b7a2ff763819ddb&oe=5F016609" alt="myImage"
+            width="40%" height="40%" style="border-radius: 80%;"></center>
+    <h3 style="color: aqua;font-size: 20px;" class="absolute">Proudly powered By RAM MOHAN..</h3>
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="rammohanMainPage.html" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.0-9/97457207_237759977450805_229516708631543808_o.jpg?_nc_cat=107&_nc_sid=730e14&_nc_ohc=8xvtTtROMnwAX_pNPvB&_nc_ht=scontent.fhyd6-1.fna&oh=d6a498e7dee71d35c7024869cd74c626&oe=5EFDFBEE" alt="Avatar"
+                    class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="login.html">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+    <div id="ram">
+
+    </div>
+    <script>
+        function myFunctiondis() {
+            var x = document.getElementById("ram");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

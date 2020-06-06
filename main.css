@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: chartreuse
+}
+
+
+/* Header/Blog Title */
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 50px;
+    margin: 15px;
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change color on hover */
+
+.topnav a:hover {
+    background-color: rgb(49, 52, 233);
+    color: yellow;
+    border-radius: 30px;
+}
+
+.topnav a:active {
+    background-color: blue;
+    color: white;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+
+
+/* Left column */
+
+#leftcolumn {
+    float: left;
+    width: 75%;
+    background-color: pink;
+}
+
+
+/* Right column */
+
+
+/* Fake image */
+
+.preimg {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.popimg {
+    background-color: blue;
+    width: 100%;
+}
+
+.abimg {
+    background-image: url("https://img1.sendscraps.com/se/008/068.jpg");
+    width: 100%;
+}
+
+
+/* Add a card effect for articles */
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Footer */
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.giri {
+    text-align: left;
+}
+
+.gir {
+    text-align: right;
+}
+
+#footer {
+    padding: 20px;
+    text-align: center;
+    background: pink;
+    margin-top: 20px;
+    border: 15px ridge orange;
+    border-radius: 40px;
+}
+
+#footer1 {
+    padding: 20px;
+    text-align: center;
+    background: pink;
+    margin-top: 20px;
+    border: 15px ridge orange;
+    border-radius: 40px;
+}
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 30px;
+    right: 800px;
+    width: 90px;
+    height: 100px;
+}
+
+#q {
+    background-color: black;
+}
+
+#header {
+    padding: 30px;
+    text-align: center;
+    background: skyblue;
+    border: 9px ridge red;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+}
+
+#rightcolumn {
+    background-color: orange;
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+}
+
+#card {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#card1 {
+    background-color: skyblue;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#myP {
+    color: red;
+    font-weight: bold;
+    padding: 00px;
+    margin: 0px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+    background-color: inherit;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: blue;
+    border-radius: 30px;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+body {
+    background-color: yellow;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.info {
+    background-color: black;
+    opacity: 0.6;
+    color: chartreuse;
+    margin-top: 300px;
+    padding: 10px;
+    border: 6px ridge orange;
+    border-bottom-left-radius: 50px;
+}
+
+div5.tr,
+div5.td {
+    border: 1px solid brown;
+    padding: 2px;
+    text-align: center;
+    margin-left: 100px;
+    overflow-y: auto;
+}
+
+div5.h1 {
+    text-align: center;
+}
+
+#contact {
+    border: 15px ridge orangered;
+    color: orangered;
+    width: 400px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 20px;
+}
+
+.columnr {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+/* Style the images inside the grid */
+
+.columnr img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.columnr img:hover {
+    opacity: 1;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* The expanding image container */
+
+.containerr {
+    position: relative;
+    display: none;
+}
+
+
+/* Expanding image text */
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Closable button inside the expanded image */
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: red;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(73, 37, 172);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.topnav a.active {
+    background-color: rgb(233, 68, 18);
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 1000px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+
+.x {
+    border: 5px ridge orangered;
+    padding: 10px;
+    background-color: fuchsia;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.giri {
+    text-align: left;
+}
+
+.gir {
+    text-align: right;
+}
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 30px;
+    right: 800px;
+    width: 90px;
+    height: 100px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#card1 {
+    background-color: skyblue;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.card1 {
+    background-color: skyblue;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
